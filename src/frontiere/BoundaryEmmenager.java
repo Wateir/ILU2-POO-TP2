@@ -27,7 +27,12 @@ public class BoundaryEmmenager {
 					break;
 
 				case 2:
-					//TODO a completer
+					System.out.println(
+							"Bienvenue villageois " + nomVisiteur +
+							"Quelle est votre force ?");
+					question.append("Quelle est votre force ?\n");
+					int choixUtilisateurForce = -1;
+					controlEmmenager.ajouterGaulois(nomVisiteur, choixUtilisateurForce);
 					break;
 
 				default:
