@@ -1,19 +1,19 @@
 package frontiere;
 
 import controleur.ControlPrendreEtal;
+import controleur.ControlVerifierIdentite;
 
 public class BoundaryPrendreEtal {
-	private ControlPrendreEtal controlPrendreEtal;
 
-	public BoundaryPrendreEtal(ControlPrendreEtal controlChercherEtal) {
-		this.controlPrendreEtal = controlChercherEtal;
-	}
+    private ControlPrendreEtal controlPrendreEtal;
 
-	public void prendreEtal(String nomVendeur) {
-		//TODO a completer
-	}
+    public BoundaryPrendreEtal(ControlPrendreEtal controlChercherEtal) {
+        this.controlPrendreEtal = controlChercherEtal;
+    }
 
-	private void installerVendeur(String nomVendeur) {
-		//TODO a completer
-	}
+    public void prendreEtal(String nomVendeur) {}
+
+    private void installerVendeur(String nomVendeur) {
+        //TODO a completer
+    }
 }
